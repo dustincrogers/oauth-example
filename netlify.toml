@@ -15,6 +15,7 @@
   status = 301
   force = false
 
+[[redirects]]
   from = "https://www.dustin-oauth-test.netlifystg.app"
   to = "https://dustin-oauth-test.netlifystg.app"
   status = 301
