@@ -7,3 +7,17 @@
 [template.environment]
   NETLIFY_OAUTH_CLIENT_ID = "Your Netlify OAuth Client ID"
   NETLIFY_OAUTH_CLIENT_SECRET= "Your Netlify OAuth Client Secret"
+
+
+[[redirects]]
+  from = "http://dustin-oauth-test.netlifystg.app"
+  to = "https://dustin-oauth-test.netlifystg.app"
+  status = 301
+  force = false
+
+  from = "https://www.dustin-oauth-test.netlifystg.app"
+  to = "https://dustin-oauth-test.netlifystg.app"
+  status = 301
+  force = true
+
+
